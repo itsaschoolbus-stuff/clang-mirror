@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       refs:
-        description: 'Git refs (e.g., refs/head/main)'
+        description: 'Git refs (e.g., refs/heads/main)'
         required: true
-        default: refs/head/main
+        default: refs/heads/main
         type: string
       version:
         description: 'Clang version (e.g., r522817)'
